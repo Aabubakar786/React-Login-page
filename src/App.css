@@ -1,0 +1,44 @@
+/* global css here */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.2s all;
+}
+
+:root {
+  min-height: 100%;
+}
+
+body {
+  background-image: url("./assets/images/bg.webp") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-primary {
+  width: fit-content !important;
+  border-radius: 12px !important;
+  background: linear-gradient(
+    45deg,
+    rgba(107, 20, 81, 0.534),
+    rgba(111, 24, 182, 0.589)
+  ) !important;
+  border: none !important;
+}
+
+.btn-primary:focus {
+  box-shadow: none !important;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited {
+  color: inherit !important;
+  text-decoration: none !important;
+}
